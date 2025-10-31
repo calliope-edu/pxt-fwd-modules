@@ -24,13 +24,12 @@ namespace fwdMotors {
         function drive(direction: -1 | 1, speed: number): void {
             if (!enabled) return
             leftMotor.setSpeed(direction * speed * leftBias)
-            rightMotor.setSpeed(-direction * speed * rightBias) //motors are mounted opposite directions
+            rightMotor.setSpeed(-direction * speed * rightBias)
         }
 
         function turnInPlace(angle: number): void {
             if (!enabled) return
-            // angle is how far to turn. Neg: left, Pos: right.
-            const DEG_PER_SEC = 30 // magic number, determined by testing
+            const DEG_PER_SEC = 30
             const direction = angle > 0 ? 1 : -1
             leftMotor.setSpeed(60 * direction * leftBias)
             rightMotor.setSpeed(60 * direction * rightBias)
@@ -55,7 +54,17 @@ namespace fwdMotors {
      * @param bias if the motors don't spin at quite the same rate, use the bias to balance them
      */
     //% group="Driving"
+    //% group.de="Fahren"
+    //% group.fr="Conduite"
+    //% group.it="Guida"
+    //% group.es="Conducción"
+    //% group.el="Οδήγηση"
     //% block="setup driving|left motor $left|right motor $right||left/right bias $bias"
+    //% block.de="Fahren einrichten|linker Motor $left|rechter Motor $right||Links/Rechts Bias $bias"
+    //% block.fr="configurer conduite|moteur gauche $left|moteur droit $right||biais gauche/droite $bias"
+    //% block.it="configura guida|motore sinistro $left|motore destro $right||bias sinistra/destra $bias"
+    //% block.es="configurar conducción|motor izquierdo $left|motor derecho $right||bias izquierda/derecha $bias"
+    //% block.el="ρύθμιση οδήγησης|αριστερός κινητήρας $left|δεξιός κινητήρας $right||διαφορά αριστερά/δεξιά $bias"
     //% blockId=fwd_driving_setup
     //% bias.shadow="speedPicker"
     //% bias.defl=0
@@ -75,7 +84,17 @@ namespace fwdMotors {
      * @param speed 0% (stationary) to 100% (max speed)
      */
     //% group="Driving"
+    //% group.de="Fahren"
+    //% group.fr="Conduite"
+    //% group.it="Guida"
+    //% group.es="Conducción"
+    //% group.el="Οδήγηση"
     //% block="drive $direction at $speed %"
+    //% block.de="fahre $direction mit $speed %"
+    //% block.fr="conduire $direction à $speed %"
+    //% block.it="guida $direction a $speed %"
+    //% block.es="conducir $direction a $speed %"
+    //% block.el="οδήγησε $direction με $speed %"
     //% blockId=fwd_driving_drive
     //% speed.shadow="speedPicker"
     //% weight=99
@@ -87,7 +106,17 @@ namespace fwdMotors {
      * Stop driving or turning. Sets speed to 0%.
      */
     //% group="Driving"
+    //% group.de="Fahren"
+    //% group.fr="Conduite"
+    //% group.it="Guida"
+    //% group.es="Conducción"
+    //% group.el="Οδήγηση"
     //% block="stop motors"
+    //% block.de="Motoren stoppen"
+    //% block.fr="arrêter moteurs"
+    //% block.it="ferma motori"
+    //% block.es="detener motores"
+    //% block.el="σταμάτησε τους κινητήρες"
     //% blockId=fwd_driving_stop
     //% weight=98
     export function stop() {
@@ -99,7 +128,17 @@ namespace fwdMotors {
      * @param angle positive angles turn right, negative angles turn left
      */
     //% group="Driving"
+    //% group.de="Fahren"
+    //% group.fr="Conduite"
+    //% group.it="Guida"
+    //% group.es="Conducción"
+    //% group.el="Οδήγηση"
     //% block="turn $angle ° in place"
+    //% block.de="drehe $angle ° auf der Stelle"
+    //% block.fr="tourner $angle ° sur place"
+    //% block.it="ruota $angle ° sul posto"
+    //% block.es="gira $angle ° en el lugar"
+    //% block.el="στρίψε $angle ° επί τόπου"
     //% blockId=fwd_driving_turn_in_place
     //% angle.min=-359 angle.max=359
     //% weight=97
