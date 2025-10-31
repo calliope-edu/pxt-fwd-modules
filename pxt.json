@@ -8,6 +8,7 @@
     "testFiles": [],
     "public": true,
     "supportedTargets": [
-        "microbit"
+        "microbit",
+        "calliopemini"
     ]
 }
