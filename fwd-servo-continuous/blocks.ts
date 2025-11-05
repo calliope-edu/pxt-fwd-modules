@@ -10,17 +10,17 @@ namespace fwdMotors {
      * @el Ενεργοποιεί ή απενεργοποιεί τον σερβοκινητήρα.
      */
     //% group="Servo - Continuous"
-    //% group.de="Servo - Kontinuierlich"
-    //% group.fr="Servo - Continu"
-    //% group.it="Servo - Continuo"
-    //% group.es="Servo - Continuo"
-    //% group.el="Σερβο - Συνεχής"
+    //% group.loc.de="Servo - Kontinuierlich"
+    //% group.loc.fr="Servo - Continu"
+    //% group.loc.it="Servo - Continuo"
+    //% group.loc.es="Servo - Continuo"
+    //% group.loc.el="Σερβο - Συνεχής"
     //% block="turn $servo $state"
-    //% block.de="schalte $servo $state"
-    //% block.fr="mettre $servo $state"
-    //% block.it="attiva $servo $state"
-    //% block.es="poner $servo $state"
-    //% block.el="ενεργοποίησε $servo $state"
+    //% block.loc.de="schalte $servo $state"
+    //% block.loc.fr="mettre $servo $state"
+    //% block.loc.it="attiva $servo $state"
+    //% block.loc.es="poner $servo $state"
+    //% block.loc.el="ενεργοποίησε $servo $state"
     //% blockId=fwd_servocon_set_enabled
     //% state.shadow="toggleOnOff"
     //% weight=100
@@ -42,17 +42,17 @@ namespace fwdMotors {
      * @el Ορίζει την ταχύτητα του σερβοκινητήρα μεταξύ 100% και -100%. Αρνητικές ταχύτητες σημαίνουν αντίθετη κατεύθυνση.
      */
     //% group="Servo - Continuous"
-    //% group.de="Servo - Kontinuierlich"
-    //% group.fr="Servo - Continu"
-    //% group.it="Servo - Continuo"
-    //% group.es="Servo - Continuo"
-    //% group.el="Σερβο - Συνεχής"
+    //% group.loc.de="Servo - Kontinuierlich"
+    //% group.loc.fr="Servo - Continu"
+    //% group.loc.it="Servo - Continuo"
+    //% group.loc.es="Servo - Continuo"
+    //% group.loc.el="Σερβο - Συνεχής"
     //% block="set $servo to $speed \\%"
-    //% block.de="stelle $servo auf $speed \\%"
-    //% block.fr="régler $servo à $speed \\%"
-    //% block.it="imposta $servo a $speed \\%"
-    //% block.es="ajustar $servo a $speed \\%"
-    //% block.el="όρισε $servo σε $speed \\%"
+    //% block.loc.de="stelle $servo auf $speed \\%"
+    //% block.loc.fr="régler $servo à $speed \\%"
+    //% block.loc.it="imposta $servo a $speed \\%"
+    //% block.loc.es="ajustar $servo a $speed \\%"
+    //% block.loc.el="όρισε $servo σε $speed \\%"
     //% blockId=fwd_servocon_set_speed
     //% speed.min=-100 speed.max=100
     //% weight=99
@@ -73,17 +73,17 @@ namespace fwdMotors {
      * @el Επιστρέφει την τρέχουσα ταχύτητα του σερβοκινητήρα (%).
      */
     //% group="Servo - Continuous"
-    //% group.de="Servo - Kontinuierlich"
-    //% group.fr="Servo - Continu"
-    //% group.it="Servo - Continuo"
-    //% group.es="Servo - Continuo"
-    //% group.el="Σερβο - Συνεχής"
+    //% group.loc.de="Servo - Kontinuierlich"
+    //% group.loc.fr="Servo - Continu"
+    //% group.loc.it="Servo - Continuo"
+    //% group.loc.es="Servo - Continuo"
+    //% group.loc.el="Σερβο - Συνεχής"
     //% block="$servo speed (\\%)"
-    //% block.de="$servo Geschwindigkeit (\\%)"
-    //% block.fr="vitesse $servo (\\%)"
-    //% block.it="velocità $servo (\\%)"
-    //% block.es="velocidad $servo (\\%)"
-    //% block.el="ταχύτητα $servo (\\%)"
+    //% block.loc.de="$servo Geschwindigkeit (\\%)"
+    //% block.loc.fr="vitesse $servo (\\%)"
+    //% block.loc.it="velocità $servo (\\%)"
+    //% block.loc.es="velocidad $servo (\\%)"
+    //% block.loc.el="ταχύτητα $servo (\\%)"
     //% blockId=fwd_servocon_get_speed
     //% weight=98
     export function getSpeed(servo: fwdBase.FwdServoClient): number {
@@ -100,17 +100,17 @@ namespace fwdMotors {
      * @el Επιστρέφει εάν ο σερβοκινητήρας είναι ενεργός (true = ενεργός, false = ανενεργός).
      */
     //% group="Servo - Continuous"
-    //% group.de="Servo - Kontinuierlich"
-    //% group.fr="Servo - Continu"
-    //% group.it="Servo - Continuo"
-    //% group.es="Servo - Continuo"
-    //% group.el="Σερβο - Συνεχής"
+    //% group.loc.de="Servo - Kontinuierlich"
+    //% group.loc.fr="Servo - Continu"
+    //% group.loc.it="Servo - Continuo"
+    //% group.loc.es="Servo - Continuo"
+    //% group.loc.el="Σερβο - Συνεχής"
     //% block="$servo is enabled"
-    //% block.de="$servo ist aktiviert"
-    //% block.fr="$servo est activé"
-    //% block.it="$servo è abilitato"
-    //% block.es="$servo está activado"
-    //% block.el="$servo είναι ενεργός"
+    //% block.loc.de="$servo ist aktiviert"
+    //% block.loc.fr="$servo est activé"
+    //% block.loc.it="$servo è abilitato"
+    //% block.loc.es="$servo está activado"
+    //% block.loc.el="$servo είναι ενεργός"
     //% blockId=fwd_servocon_is_enabled
     //% weight=97
     export function conIsEnabled(servo: fwdBase.FwdServoClient): boolean {
