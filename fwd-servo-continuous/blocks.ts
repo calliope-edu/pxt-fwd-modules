@@ -3,11 +3,11 @@ namespace fwdMotors {
      * Set the servo to enabled or disabled.
      * @param servo the servo client to set the status of
      * @param state enabled = true, disabled = false
-     * @de Setzt den Servo auf aktiviert oder deaktiviert.
-     * @fr Active ou désactive le servo.
-     * @it Imposta il servo su abilitato o disabilitato.
-     * @es Activa o desactiva el servo.
-     * @el Ενεργοποιεί ή απενεργοποιεί τον σερβοκινητήρα.
+     * @locale de Setzt den Servo auf aktiviert oder deaktiviert.
+     * @locale fr Active ou désactive le servo.
+     * @locale it Imposta il servo su abilitato o disabilitato.
+     * @locale es Activa o desactiva el servo.
+     * @locale el Ενεργοποιεί ή απενεργοποιεί τον σερβοκινητήρα.
      */
     //% group="Servo - Continuous"
     //% group.loc.de="Servo - Kontinuierlich"
@@ -35,11 +35,11 @@ namespace fwdMotors {
      * Set the servo speed to between 100% and -100%. Negative speeds are the reverse direction.
      * @param servo the servo client to set the speed of
      * @param speed the speed to set the servo to (%)
-     * @de Setzt die Servogeschwindigkeit zwischen 100% und -100%. Negative Werte drehen rückwärts.
-     * @fr Définit la vitesse du servo entre 100 % et -100 %. Les vitesses négatives sont en sens inverse.
-     * @it Imposta la velocità del servo tra 100% e -100%. Valori negativi indicano direzione inversa.
-     * @es Ajusta la velocidad del servo entre 100% y -100%. Valores negativos son en sentido inverso.
-     * @el Ορίζει την ταχύτητα του σερβοκινητήρα μεταξύ 100% και -100%. Αρνητικές ταχύτητες σημαίνουν αντίθετη κατεύθυνση.
+     * @locale de Setzt die Servogeschwindigkeit zwischen 100% und -100%. Negative Werte drehen rückwärts.
+     * @locale fr Définit la vitesse du servo entre 100 % et -100 %. Les vitesses négatives sont en sens inverse.
+     * @locale it Imposta la velocità del servo tra 100% e -100%. Valori negativi indicano direzione inversa.
+     * @locale es Ajusta la velocidad del servo entre 100% y -100%. Valores negativos son en sentido inverso.
+     * @locale el Ορίζει την ταχύτητα του σερβοκινητήρα μεταξύ 100% και -100%. Αρνητικές ταχύτητες σημαίνουν αντίθετη κατεύθυνση.
      */
     //% group="Servo - Continuous"
     //% group.loc.de="Servo - Kontinuierlich"
@@ -66,11 +66,11 @@ namespace fwdMotors {
     /**
      * Returns the speed that the servo is set to (%).
      * @param servo the servo client to get the speed of
-     * @de Gibt die aktuelle Servogeschwindigkeit (%) zurück.
-     * @fr Renvoie la vitesse actuelle du servo (%).
-     * @it Restituisce la velocità attuale del servo (%).
-     * @es Devuelve la velocidad actual del servo (%).
-     * @el Επιστρέφει την τρέχουσα ταχύτητα του σερβοκινητήρα (%).
+     * @locale de Gibt die aktuelle Servogeschwindigkeit (%) zurück.
+     * @locale fr Renvoie la vitesse actuelle du servo (%).
+     * @locale it Restituisce la velocità attuale del servo (%).
+     * @locale es Devuelve la velocidad actual del servo (%).
+     * @locale el Επιστρέφει την τρέχουσα ταχύτητα του σερβοκινητήρα (%).
      */
     //% group="Servo - Continuous"
     //% group.loc.de="Servo - Kontinuierlich"
@@ -93,11 +93,11 @@ namespace fwdMotors {
     /**
      * Returns whether the servo is enabled, enabled = true, disabled = false.
      * @param servo the servo client to get the status of
-     * @de Gibt zurück, ob der Servo aktiviert ist (true = aktiviert, false = deaktiviert).
-     * @fr Indique si le servo est activé (true = activé, false = désactivé).
-     * @it Restituisce se il servo è abilitato (true = abilitato, false = disabilitato).
-     * @es Devuelve si el servo está activado (true = activado, false = desactivado).
-     * @el Επιστρέφει εάν ο σερβοκινητήρας είναι ενεργός (true = ενεργός, false = ανενεργός).
+     * @locale de Gibt zurück, ob der Servo aktiviert ist (true = aktiviert, false = deaktiviert).
+     * @locale fr Indique si le servo est activé (true = activé, false = désactivé).
+     * @locale it Restituisce se il servo è abilitato (true = abilitato, false = disabilitato).
+     * @locale es Devuelve si el servo está activado (true = activado, false = desactivado).
+     * @locale el Επιστρέφει εάν ο σερβοκινητήρας είναι ενεργός (true = ενεργός, false = ανενεργός).
      */
     //% group="Servo - Continuous"
     //% group.loc.de="Servo - Kontinuierlich"
