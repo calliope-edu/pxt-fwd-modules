@@ -15,17 +15,17 @@ namespace fwdSensors {
          * @el Εκτελεί κώδικα όταν ο αισθητήρας αλλάζει μεταξύ κατάστασης ανίχνευσης και μη ανίχνευσης.
          */
         //% group="Line"
-        //% group.de="Linie"
-        //% group.fr="Ligne"
-        //% group.it="Linea"
-        //% group.es="Línea"
-        //% group.el="Γραμμή"
+        //% group.loc.de="Linie"
+        //% group.loc.fr="Ligne"
+        //% group.loc.it="Linea"
+        //% group.loc.es="Línea"
+        //% group.loc.el="Γραμμή"
         //% block="on $this state change"
-        //% block.de="wenn $this Zustand ändert"
-        //% block.fr="quand $this change d’état"
-        //% block.it="quando $this stato cambia"
-        //% block.es="cuando $this estado cambia"
-        //% block.el="όταν $this κατάσταση αλλάζει"
+        //% block.loc.de="wenn $this Zustand ändert"
+        //% block.loc.fr="quand $this change d’état"
+        //% block.loc.it="quando $this stato cambia"
+        //% block.loc.es="cuando $this estado cambia"
+        //% block.loc.el="όταν $this κατάσταση αλλάζει"
         //% blockId=fwd_line_on_line_sensor_state_change
         //% weight=100
         onLineSensorStateChange(handler: () => void): void {
@@ -41,17 +41,17 @@ namespace fwdSensors {
          * @el Επιστρέφει την κατάσταση του αισθητήρα· αληθές σημαίνει ανίχνευση, ψευδές καμία ανίχνευση.
          */
         //% group="Line"
-        //% group.de="Linie"
-        //% group.fr="Ligne"
-        //% group.it="Linea"
-        //% group.es="Línea"
-        //% group.el="Γραμμή"
+        //% group.loc.de="Linie"
+        //% group.loc.fr="Ligne"
+        //% group.loc.it="Linea"
+        //% group.loc.es="Línea"
+        //% group.loc.el="Γραμμή"
         //% block="$this state"
-        //% block.de="$this Zustand"
-        //% block.fr="état de $this"
-        //% block.it="$this stato"
-        //% block.es="$this estado"
-        //% block.el="$this κατάσταση"
+        //% block.loc.de="$this Zustand"
+        //% block.loc.fr="état de $this"
+        //% block.loc.it="$this stato"
+        //% block.loc.es="$this estado"
+        //% block.loc.el="$this κατάσταση"
         //% blockId=fwd_line_sensor_state
         //% weight=99
         lineSensorState(): fwdEnums.OnOff {
@@ -68,17 +68,17 @@ namespace fwdSensors {
          * @el Επιστρέφει αληθές εάν ο αισθητήρας βρίσκεται στην καθορισμένη κατάσταση.
          */
         //% group="Line"
-        //% group.de="Linie"
-        //% group.fr="Ligne"
-        //% group.it="Linea"
-        //% group.es="Línea"
-        //% group.el="Γραμμή"
+        //% group.loc.de="Linie"
+        //% group.loc.fr="Ligne"
+        //% group.loc.it="Linea"
+        //% group.loc.es="Línea"
+        //% group.loc.el="Γραμμή"
         //% block="$this is $state"
-        //% block.de="$this ist $state"
-        //% block.fr="$this est $state"
-        //% block.it="$this è $state"
-        //% block.es="$this está $state"
-        //% block.el="$this είναι $state"
+        //% block.loc.de="$this ist $state"
+        //% block.loc.fr="$this est $state"
+        //% block.loc.it="$this è $state"
+        //% block.loc.es="$this está $state"
+        //% block.loc.el="$this είναι $state"
         //% blockId=fwd_line_is_line_sensor_state
         //% weight=98
         isLineSensorState(state: fwdEnums.OnOff): boolean {
