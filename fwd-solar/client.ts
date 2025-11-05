@@ -31,11 +31,11 @@ namespace fwdSensors {
          * @locale el Επιστρέφει την ένδειξη φωτεινότητας του αισθητήρα (%).
          */
         //% group="Solar"
-        //% group.de="Solar"
-        //% group.fr="Solaire"
-        //% group.it="Solare"
-        //% group.es="Solar"
-        //% group.el="Ηλιακό"
+        //% group.loc.de="Solar"
+        //% group.loc.fr="Solaire"
+        //% group.loc.it="Solare"
+        //% group.loc.es="Solar"
+        //% group.loc.el="Ηλιακό"
         //% block="$this light level (\\%)"
         //% block.loc.de="$this Lichtwert (\\%)"
         //% block.loc.fr="niveau lumineux de $this (\\%)"
@@ -59,11 +59,11 @@ namespace fwdSensors {
          * @locale el Επιστρέφει αληθές όταν το επίπεδο φωτεινότητας (%) υπερβαίνει ή είναι κάτω από το καθορισμένο όριο προς την επιλεγμένη κατεύθυνση.
          */
         //% group="Solar"
-        //% group.de="Solar"
-        //% group.fr="Solaire"
-        //% group.it="Solare"
-        //% group.es="Solar"
-        //% group.el="Ηλιακό"
+        //% group.loc.de="Solar"
+        //% group.loc.fr="Solaire"
+        //% group.loc.it="Solare"
+        //% group.loc.es="Solar"
+        //% group.loc.el="Ηλιακό"
         //% block="$this is $direction $threshold \\%"
         //% block.loc.de="$this ist $direction $threshold \\%"
         //% block.loc.fr="$this est $direction $threshold \\%"
