@@ -16,17 +16,17 @@ namespace fwdSensors {
          * @el Κώδικας που εκτελείται όταν συμβαίνει το επιλεγμένο γεγονός.
          */
         //% group="Float"
-        //% group.de="Schwimmer"
-        //% group.fr="Flotteur"
-        //% group.it="Galleggiante"
-        //% group.es="Flotador"
-        //% group.el="Φλοτέρ"
+        //% group.loc.de="Schwimmer"
+        //% group.loc.fr="Flotteur"
+        //% group.loc.it="Galleggiante"
+        //% group.loc.es="Flotador"
+        //% group.loc.el="Φλοτέρ"
         //% block="on $this $event"
-        //% block.de="wenn $this $event"
-        //% block.fr="quand $this $event"
-        //% block.it="quando $this $event"
-        //% block.es="cuando $this $event"
-        //% block.el="όταν $this $event"
+        //% block.loc.de="wenn $this $event"
+        //% block.loc.fr="quand $this $event"
+        //% block.loc.it="quando $this $event"
+        //% block.loc.es="cuando $this $event"
+        //% block.loc.el="όταν $this $event"
         //% blockId=fwd_float_on_change
         //% weight=100
         onFloatChange(event: fwdEnums.RaisedLowered, handler: () => void) {
@@ -46,17 +46,17 @@ namespace fwdSensors {
          * @el Επιστρέφει την κατάσταση του αισθητήρα, 1 = ανυψωμένο, 0 = κατεβασμένο.
          */
         //% group="Float"
-        //% group.de="Schwimmer"
-        //% group.fr="Flotteur"
-        //% group.it="Galleggiante"
-        //% group.es="Flotador"
-        //% group.el="Φλοτέρ"
+        //% group.loc.de="Schwimmer"
+        //% group.loc.fr="Flotteur"
+        //% group.loc.it="Galleggiante"
+        //% group.loc.es="Flotador"
+        //% group.loc.el="Φλοτέρ"
         //% block="$this state"
-        //% block.de="$this Zustand"
-        //% block.fr="$this état"
-        //% block.it="$this stato"
-        //% block.es="$this estado"
-        //% block.el="$this κατάσταση"
+        //% block.loc.de="$this Zustand"
+        //% block.loc.fr="$this état"
+        //% block.loc.it="$this stato"
+        //% block.loc.es="$this estado"
+        //% block.loc.el="$this κατάσταση"
         //% blockId=fwd_float_state
         //% weight=99
         floatState(): number {
@@ -77,17 +77,17 @@ namespace fwdSensors {
          * @el Επιστρέφει αληθές αν ο αισθητήρας βρίσκεται στην καθορισμένη κατάσταση.
          */
         //% group="Float"
-        //% group.de="Schwimmer"
-        //% group.fr="Flotteur"
-        //% group.it="Galleggiante"
-        //% group.es="Flotador"
-        //% group.el="Φλοτέρ"
+        //% group.loc.de="Schwimmer"
+        //% group.loc.fr="Flotteur"
+        //% group.loc.it="Galleggiante"
+        //% group.loc.es="Flotador"
+        //% group.loc.el="Φλοτέρ"
         //% block="$this is $state"
-        //% block.de="$this ist $state"
-        //% block.fr="$this est $state"
-        //% block.it="$this è $state"
-        //% block.es="$this está $state"
-        //% block.el="$this είναι $state"
+        //% block.loc.de="$this ist $state"
+        //% block.loc.fr="$this est $state"
+        //% block.loc.it="$this è $state"
+        //% block.loc.es="$this está $state"
+        //% block.loc.el="$this είναι $state"
         //% blockId=fwd_float_state_conditional
         //% weight=98
         floatStateConditional(state: fwdEnums.RaisedLowered): boolean {
