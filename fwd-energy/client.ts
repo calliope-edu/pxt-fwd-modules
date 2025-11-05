@@ -14,17 +14,17 @@ namespace fwdSensors {
          * @el Επιστρέφει την τιμή ρεύματος που μετρά ο αισθητήρας (mA).
          */
         //% group="Energy"
-        //% group.de="Energie"
-        //% group.fr="Énergie"
-        //% group.it="Energia"
-        //% group.es="Energía"
-        //% group.el="Ενέργεια"
+        //% group.loc.de="Energie"
+        //% group.loc.fr="Énergie"
+        //% group.loc.it="Energia"
+        //% group.loc.es="Energía"
+        //% group.loc.el="Ενέργεια"
         //% block="$this mA"
-        //% block.de="$this mA"
-        //% block.fr="$this mA"
-        //% block.it="$this mA"
-        //% block.es="$this mA"
-        //% block.el="$this mA"
+        //% block.loc.de="$this mA"
+        //% block.loc.fr="$this mA"
+        //% block.loc.it="$this mA"
+        //% block.loc.es="$this mA"
+        //% block.loc.el="$this mA"
         //% blockId=fwd_dccurrent_get_current
         //% weight=100
         current(): number {
@@ -44,17 +44,17 @@ namespace fwdSensors {
          * @el Επιστρέφει αληθές όταν η ένταση ρεύματος (mA) υπερβαίνει ή είναι κάτω από το καθορισμένο όριο.
          */
         //% group="Energy"
-        //% group.de="Energie"
-        //% group.fr="Énergie"
-        //% group.it="Energia"
-        //% group.es="Energía"
-        //% group.el="Ενέργεια"
+        //% group.loc.de="Energie"
+        //% group.loc.fr="Énergie"
+        //% group.loc.it="Energia"
+        //% group.loc.es="Energía"
+        //% group.loc.el="Ενέργεια"
         //% block="$this is $direction $threshold mA"
-        //% block.de="$this ist $direction $threshold mA"
-        //% block.fr="$this est $direction $threshold mA"
-        //% block.it="$this è $direction $threshold mA"
-        //% block.es="$this está $direction $threshold mA"
-        //% block.el="$this είναι $direction $threshold mA"
+        //% block.loc.de="$this ist $direction $threshold mA"
+        //% block.loc.fr="$this est $direction $threshold mA"
+        //% block.loc.it="$this è $direction $threshold mA"
+        //% block.loc.es="$this está $direction $threshold mA"
+        //% block.loc.el="$this είναι $direction $threshold mA"
         //% blockId=fwd_dccurrent_is_past_threshold
         //% weight=99
         isPastThreshold(
@@ -93,17 +93,17 @@ namespace fwdSensors {
          * @el Επιστρέφει την τιμή τάσης που μετρά ο αισθητήρας (V).
          */
         //% group="Energy"
-        //% group.de="Energie"
-        //% group.fr="Énergie"
-        //% group.it="Energia"
-        //% group.es="Energía"
-        //% group.el="Ενέργεια"
+        //% group.loc.de="Energie"
+        //% group.loc.fr="Énergie"
+        //% group.loc.it="Energia"
+        //% group.loc.es="Energía"
+        //% group.loc.el="Ενέργεια"
         //% block="$this V"
-        //% block.de="$this V"
-        //% block.fr="$this V"
-        //% block.it="$this V"
-        //% block.es="$this V"
-        //% block.el="$this V"
+        //% block.loc.de="$this V"
+        //% block.loc.fr="$this V"
+        //% block.loc.it="$this V"
+        //% block.loc.es="$this V"
+        //% block.loc.el="$this V"
         //% blockId=fwd_dcvoltage_get_voltage
         //% weight=98
         voltage(): number {
@@ -121,17 +121,17 @@ namespace fwdSensors {
          * @el Επιστρέφει αληθές όταν η τάση (V) υπερβαίνει ή είναι κάτω από το καθορισμένο όριο.
          */
         //% group="Energy"
-        //% group.de="Energie"
-        //% group.fr="Énergie"
-        //% group.it="Energia"
-        //% group.es="Energía"
-        //% group.el="Ενέργεια"
+        //% group.loc.de="Energie"
+        //% group.loc.fr="Énergie"
+        //% group.loc.it="Energia"
+        //% group.loc.es="Energía"
+        //% group.loc.el="Ενέργεια"
         //% block="$this is $direction $threshold V"
-        //% block.de="$this ist $direction $threshold V"
-        //% block.fr="$this est $direction $threshold V"
-        //% block.it="$this è $direction $threshold V"
-        //% block.es="$this está $direction $threshold V"
-        //% block.el="$this είναι $direction $threshold V"
+        //% block.loc.de="$this ist $direction $threshold V"
+        //% block.loc.fr="$this est $direction $threshold V"
+        //% block.loc.it="$this è $direction $threshold V"
+        //% block.loc.es="$this está $direction $threshold V"
+        //% block.loc.el="$this είναι $direction $threshold V"
         //% blockId=fwd_dcvoltage_is_past_threshold
         //% weight=97
         isPastThreshold(
