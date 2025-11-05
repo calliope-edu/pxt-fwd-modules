@@ -15,7 +15,17 @@ namespace fwdSensors {
          * Returns the sensor's pH reading.
          */
         //% group="pH"
+        //% group.loc.de="pH"
+        //% group.loc.fr="pH"
+        //% group.loc.it="pH"
+        //% group.loc.es="pH"
+        //% group.loc.el="pH"
         //% block="$this pH"
+        //% block.loc.de="$this pH"
+        //% block.loc.fr="$this pH"
+        //% block.loc.it="$this pH"
+        //% block.loc.es="$this pH"
+        //% block.loc.el="$this pH"
         //% blockId=fwd_ph_get_ph
         //% weight=100
         ph(): number {
@@ -38,7 +48,17 @@ namespace fwdSensors {
          * @param direction over or under the threshold
          */
         //% group="pH"
+        //% group.loc.de="pH"
+        //% group.loc.fr="pH"
+        //% group.loc.it="pH"
+        //% group.loc.es="pH"
+        //% group.loc.el="pH"
         //% block="$this is $direction $threshold pH"
+        //% block.loc.de="$this ist $direction $threshold pH"
+        //% block.loc.fr="$this est $direction $threshold pH"
+        //% block.loc.it="$this è $direction $threshold pH"
+        //% block.loc.es="$this está $direction $threshold pH"
+        //% block.loc.el="$this είναι $direction $threshold pH"
         //% blockId=fwd_ph_is_past_threshold
         //% weight=99
         isPastThreshold(
@@ -61,7 +81,17 @@ namespace fwdSensors {
          * @param reading2 the measured pH of standard2
          */
         //% group="pH"
+        //% group.loc.de="pH"
+        //% group.loc.fr="pH"
+        //% group.loc.it="pH"
+        //% group.loc.es="pH"
+        //% group.loc.el="pH"
         //% block="calibrate $this measures $standard1 as $reading1 measures $standard2 as $reading2"
+        //% block.loc.de="kalibriere $this: $standard1 misst $reading1, $standard2 misst $reading2"
+        //% block.loc.fr="calibrer $this: $standard1 mesure $reading1, $standard2 mesure $reading2"
+        //% block.loc.it="calibra $this: $standard1 misura $reading1, $standard2 misura $reading2"
+        //% block.loc.es="calibrar $this: $standard1 mide $reading1, $standard2 mide $reading2"
+        //% block.loc.el="βαθμονόμηση $this: $standard1 μετρά $reading1, $standard2 μετρά $reading2"
         //% blockId=fwd_ph_calibrate
         //% inlineInputMode=external
         //% weight=98
