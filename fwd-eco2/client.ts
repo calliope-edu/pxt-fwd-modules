@@ -14,17 +14,17 @@ namespace fwdSensors {
          * @el Επιστρέφει την εκτιμώμενη τιμή CO2 (eCO2) του αισθητήρα (ppm).
          */
         //% group="eCO2"
-        //% group.de="eCO2"
-        //% group.fr="eCO2"
-        //% group.it="eCO2"
-        //% group.es="eCO2"
-        //% group.el="eCO2"
+        //% group.loc.de="eCO2"
+        //% group.loc.fr="eCO2"
+        //% group.loc.it="eCO2"
+        //% group.loc.es="eCO2"
+        //% group.loc.el="eCO2"
         //% block="$this ppm"
-        //% block.de="$this ppm"
-        //% block.fr="$this ppm"
-        //% block.it="$this ppm"
-        //% block.es="$this ppm"
-        //% block.el="$this ppm"
+        //% block.loc.de="$this ppm"
+        //% block.loc.fr="$this ppm"
+        //% block.loc.it="$this ppm"
+        //% block.loc.es="$this ppm"
+        //% block.loc.el="$this ppm"
         //% blockId=fwd_eco2_get_eco2
         //% weight=100
         eco2(): number {
@@ -42,17 +42,17 @@ namespace fwdSensors {
          * @el Επιστρέφει αληθές όταν η τιμή eCO2 (ppm) υπερβαίνει ή είναι κάτω από το καθορισμένο όριο.
          */
         //% group="eCO2"
-        //% group.de="eCO2"
-        //% group.fr="eCO2"
-        //% group.it="eCO2"
-        //% group.es="eCO2"
-        //% group.el="eCO2"
+        //% group.loc.de="eCO2"
+        //% group.loc.fr="eCO2"
+        //% group.loc.it="eCO2"
+        //% group.loc.es="eCO2"
+        //% group.loc.el="eCO2"
         //% block="$this is $direction $threshold ppm"
-        //% block.de="$this ist $direction $threshold ppm"
-        //% block.fr="$this est $direction $threshold ppm"
-        //% block.it="$this è $direction $threshold ppm"
-        //% block.es="$this está $direction $threshold ppm"
-        //% block.el="$this είναι $direction $threshold ppm"
+        //% block.loc.de="$this ist $direction $threshold ppm"
+        //% block.loc.fr="$this est $direction $threshold ppm"
+        //% block.loc.it="$this è $direction $threshold ppm"
+        //% block.loc.es="$this está $direction $threshold ppm"
+        //% block.loc.el="$this είναι $direction $threshold ppm"
         //% blockId=fwd_eco2_is_past_threshold
         //% weight=99
         isPastThreshold(
@@ -91,17 +91,17 @@ namespace fwdSensors {
          * @el Επιστρέφει την ένδειξη συνολικών VOC (tVOC) του αισθητήρα.
          */
         //% group="eCO2"
-        //% group.de="eCO2"
-        //% group.fr="eCO2"
-        //% group.it="eCO2"
-        //% group.es="eCO2"
-        //% group.el="eCO2"
+        //% group.loc.de="eCO2"
+        //% group.loc.fr="eCO2"
+        //% group.loc.it="eCO2"
+        //% group.loc.es="eCO2"
+        //% group.loc.el="eCO2"
         //% block="$this reading"
-        //% block.de="$this Wert"
-        //% block.fr="$this valeur"
-        //% block.it="$this lettura"
-        //% block.es="$this lectura"
-        //% block.el="$this ένδειξη"
+        //% block.loc.de="$this Wert"
+        //% block.loc.fr="$this valeur"
+        //% block.loc.it="$this lettura"
+        //% block.loc.es="$this lectura"
+        //% block.loc.el="$this ένδειξη"
         //% blockId=fwd_tvoc_get_tvoc
         //% weight=98
         tvoc(): number {
@@ -119,17 +119,17 @@ namespace fwdSensors {
          * @el Επιστρέφει αληθές όταν η τιμή tVOC υπερβαίνει ή είναι κάτω από το καθορισμένο όριο.
          */
         //% group="eCO2"
-        //% group.de="eCO2"
-        //% group.fr="eCO2"
-        //% group.it="eCO2"
-        //% group.es="eCO2"
-        //% group.el="eCO2"
+        //% group.loc.de="eCO2"
+        //% group.loc.fr="eCO2"
+        //% group.loc.it="eCO2"
+        //% group.loc.es="eCO2"
+        //% group.loc.el="eCO2"
         //% block="$this is $direction $threshold"
-        //% block.de="$this ist $direction $threshold"
-        //% block.fr="$this est $direction $threshold"
-        //% block.it="$this è $direction $threshold"
-        //% block.es="$this está $direction $threshold"
-        //% block.el="$this είναι $direction $threshold"
+        //% block.loc.de="$this ist $direction $threshold"
+        //% block.loc.fr="$this est $direction $threshold"
+        //% block.loc.it="$this è $direction $threshold"
+        //% block.loc.es="$this está $direction $threshold"
+        //% block.loc.el="$this είναι $direction $threshold"
         //% blockId=fwd_tvoc_is_past_threshold
         //% weight=97
         isPastThreshold(
