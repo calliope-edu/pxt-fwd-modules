@@ -1,10 +1,25 @@
 namespace fwdSensors {
     export const enum redGreenBlue {
-        //% block="red" block.loc.de="rot" block.loc.it="rosso" block.loc.es="rojo" block.loc.el="κόκκινο" block.loc.fr="rouge"
+        //% block="red"
+        //% block.loc.de="rot"
+        //% block.loc.it="rosso"
+        //% block.loc.es="rojo"
+        //% block.loc.el="κόκκινο"
+        //% block.loc.fr="rouge"
         Red = 0,
-        //% block="green" block.loc.de="grün" block.loc.it="verde" block.loc.es="verde" block.loc.el="πράσινο" block.loc.fr="vert"
+        //% block="green"
+        //% block.loc.de="grün"
+        //% block.loc.it="verde"
+        //% block.loc.es="verde"
+        //% block.loc.el="πράσινο"
+        //% block.loc.fr="vert"
         Green = 1,
-        //% block="blue" block.loc.de="blau" block.loc.it="blu" block.loc.es="azul" block.loc.el="μπλε" block.loc.fr="bleu"
+        //% block="blue"
+        //% block.loc.de="blau"
+        //% block.loc.it="blu"
+        //% block.loc.es="azul"
+        //% block.loc.el="μπλε"
+        //% block.loc.fr="bleu"
         Blue = 2,
     }
 
@@ -18,8 +33,18 @@ namespace fwdSensors {
          * Returns one of the sensor's color readings (%).
          * @locale fr Renvoie l'une des lectures de couleur du capteur (%).
          */
-        //% group="Color" group.loc.de="Farbe" group.loc.it="Colore" group.loc.es="Color" group.loc.el="Χρώμα" group.loc.fr="Couleur"
-        //% block="$this $color \\%" block.loc.de="$this $color \\%" block.loc.it="$this $color \\%" block.loc.es="$this $color \\%" block.loc.el="$this $color \\%" block.loc.fr="$this $color \\%"
+        //% group="Color"
+        //% group.loc.de="Farbe"
+        //% group.loc.it="Colore"
+        //% group.loc.es="Color"
+        //% group.loc.el="Χρώμα"
+        //% group.loc.fr="Couleur"
+        //% block="$this $color \\%"
+        //% block.loc.de="$this $color \\%"
+        //% block.loc.it="$this $color \\%"
+        //% block.loc.es="$this $color \\%"
+        //% block.loc.el="$this $color \\%"
+        //% block.loc.fr="$this $color \\%"
         //% blockId=fwd_color_get_color
         //% weight=100
         color(color: redGreenBlue): number {
@@ -35,7 +60,12 @@ namespace fwdSensors {
          * @locale fr Renvoie vrai lorsque la couleur (%) est comprise entre les seuils fournis.
          */
         //% group="Color" group.loc.de="Farbe" group.loc.it="Colore" group.loc.es="Color" group.loc.el="Χρώμα" group.loc.fr="Couleur"
-        //% block="$this $color is between $threshold1 and $threshold2 \\%" block.loc.de="$this $color ist zwischen $threshold1 und $threshold2 \\%" block.loc.it="$this $color è tra $threshold1 e $threshold2 \\%" block.loc.es="$this $color está entre $threshold1 y $threshold2 \\%" block.loc.el="$this $color είναι μεταξύ $threshold1 και $threshold2 \\%" block.loc.fr="$this $color est entre $threshold1 et $threshold2 \\%"
+        //% block="$this $color is between $threshold1 and $threshold2 \\%"
+        //% block.loc.de="$this $color ist zwischen $threshold1 und $threshold2 \\%"
+        //% block.loc.it="$this $color è tra $threshold1 e $threshold2 \\%"
+        //% block.loc.es="$this $color está entre $threshold1 y $threshold2 \\%"
+        //% block.loc.el="$this $color είναι μεταξύ $threshold1 και $threshold2 \\%"
+        //% block.loc.fr="$this $color est entre $threshold1 et $threshold2 \\%"
         //% threshold1.min=0 threshold1.max=100 threshold1.defl=0
         //% threshold2.min=0 threshold2.max=100 threshold2.defl=100
         //% blockId=fwd_color_is_between
@@ -80,7 +110,12 @@ namespace fwdSensors {
          */
         //% group="Color" group.loc.de="Farbe" group.loc.it="Colore" group.loc.es="Color" group.loc.el="Χρώμα" group.loc.fr="Couleur"
         //% blockId=fwd_color_set_brightness
-        //% block="set $this brightness to $brightness (\\%)" block.loc.de="setze $this Helligkeit auf $brightness (\\%)" block.loc.it="imposta $this luminosità a $brightness (\\%)" block.loc.es="establecer $this brillo a $brightness (\\%)" block.loc.el="όρισε $this φωτεινότητα σε $brightness (\\%)" block.loc.fr="règle $this luminosité à $brightness (\\%)"
+        //% block="set $this brightness to $brightness (\\%)"
+        //% block.loc.de="setze $this Helligkeit auf $brightness (\\%)"
+        //% block.loc.it="imposta $this luminosità a $brightness (\\%)"
+        //% block.loc.es="establecer $this brillo a $brightness (\\%)"
+        //% block.loc.el="όρισε $this φωτεινότητα σε $brightness (\\%)"
+        //% block.loc.fr="règle $this luminosité à $brightness (\\%)"
         //% brightness.min=0
         //% brightness.max=100
         //% weight=98
@@ -93,7 +128,12 @@ namespace fwdSensors {
          * @locale fr Renvoie vrai si la luminosité de la LED du capteur de couleur est différente de 0%.
          */
         //% group="Color" group.loc.de="Farbe" group.loc.it="Colore" group.loc.es="Color" group.loc.el="Χρώμα" group.loc.fr="Couleur"
-        //% block="$this is on" block.loc.de="$this ist an" block.loc.it="$this è acceso" block.loc.es="$this está encendido" block.loc.el="$this είναι ενεργό" block.loc.fr="$this est allumé"
+        //% block="$this is on"
+        //% block.loc.de="$this ist an"
+        //% block.loc.it="$this è acceso"
+        //% block.loc.es="$this está encendido"
+        //% block.loc.el="$this είναι ενεργό"
+        //% block.loc.fr="$this est allumé"
         //% blockId=fwd_color_is_on
         //% weight=97
         isOn(): boolean {
