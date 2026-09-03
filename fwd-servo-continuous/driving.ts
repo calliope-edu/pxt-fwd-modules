@@ -10,6 +10,9 @@ namespace fwdMotors {
             leftMotor = left
             rightMotor = right
             enabled = true
+            // Jacdac-Cache aufwärmen: first call blockiert (~1–2s), besser hier als beim Fahren
+            leftMotor.setSpeed(0)
+            rightMotor.setSpeed(0)
         }
         function drive(direction: -1 | 1, speed: number): void {
             if (!enabled) return
